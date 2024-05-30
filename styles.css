@@ -1,0 +1,247 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    width: 100vw;
+    height: 100vh;
+ }
+
+ .outter-container {
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    background-size: 100% 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.form-container {
+    width: 60%;
+    height: 80%;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  2px 3px 3px #ccc;
+}
+
+.form-text-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(./assets/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative
+}
+
+.left-cut-out {
+    width: 50px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: -20px;
+    bottom: -30px;
+    transform: rotate(-40deg);
+}
+
+.right-cut-out {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    right: -20px;
+    top: -35px;
+    background-color: #6026e7;
+    transform: rotate(-40deg);
+}
+
+.main-form-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+}
+
+.main-form-container h1 {
+    margin: 20px 0;
+}
+
+.form-text {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    position: absolute;
+    top: 32%;
+}
+
+
+.form-text h1 {
+    margin: 8px 5px;
+}
+
+.form-text-point {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px;
+}
+
+.form-text p {
+    word-break: break-all;
+}
+
+.form-input-container {
+    position: relative;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.error {
+    display: none;
+}
+
+.error-occured {
+    display: block;
+    color: red;
+}
+
+.form-input-container .error-occured {
+    position: absolute;
+    bottom: 0;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.submit-btn-container {
+    text-align: left;
+}
+
+form button {
+    outline: none;
+    border: none;
+    background-color: #2d9cdb;
+    padding: 15px;
+    width: 60%;
+    color: white;
+}
+
+.cutout {
+    width: 63.34px;
+    height: 147.8px;
+    top: 644.04px;
+    left: 289px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+}
+
+form {
+    padding: 16px 0;
+}
+
+fieldset {
+    outline: none;
+    width: 100%;
+    margin: auto;
+    border: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+  
+label {
+    display: block;
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+}
+  
+  legend {
+    text-align: right;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    border: 2px solid #ccc;
+  }
+  
+  input[type="password"] {
+    width: 100%;
+    border: 2px solid #ccc;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    border: 2px solid #ccc;
+  }
+
+  input, select {
+    padding: 12px;
+    outline: none;
+    border: none;
+    margin: 20px 0;
+  }
+
+  select {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+  }
+  
+  h2 {
+    margin: 3rem 0 1rem;
+  }
+  
+  .date-field {
+        text-align: center;
+    }
+  
+  .field-inline-block {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;  
+    
+    label {
+      text-align: left;
+    }
+  }
+
+.multi-date-container-inner-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.multi-date-container-inner-container .field-inline-block {
+    width: 100%;
+}
+
+.multi-date-container-inner-container .field-inline-block input,
+.multi-date-container-inner-container .field-inline-block select {
+    width: 100%;
+}
+
+.radio-buttons {
+    text-align: left;
+}

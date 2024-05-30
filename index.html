@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+        
+    <div class="outter-container">
+        <div class="form-container">
+            <div class="form-text-container">
+                <div class="left-cut-out"></div>
+
+                <div class="form-text">
+                    <h1>Sample heading</h1> 
+                    <div class="form-text-point"><span>1. </span><p> Lorem ipsum dolor sit amet consectetur</p></div>
+                    <div class="form-text-point"><span>2. </span><p> Adipisicing elit tempore dolorem</p></div> 
+                    <div class="form-text-point"><span>3. </span><p> Laborum distinctio incidunt quae voluptas tempore dolorem</p></div>
+                </div>
+
+                <!-- <div class="cutout">
+
+                </div> -->
+            </div>
+            <div class="main-form-container">
+                <div class="right-cut-out"></div>
+                <form action="">
+                <fieldset>
+                        <h1>Create an account</h1>
+                        <div class="form-input-container">
+                            <label for="">Enter your email</label>
+                            <input name="email" placeholder="Enter your email" type="email" />
+                            <p class="error">sfsd</p>
+                        </div>
+
+                        <div id="multi-date-container">  
+                            <div class="form-input-container" multi-date-container-inner-container">
+                            <div class="field-inline-block">
+                                <label>Date</label>
+                                <input name="date" type="number" max="31" min="1" maxlength="2" size="2" class="date-field" />
+                                <p class="error">sfsd</p>
+                            </div>
+                            
+                            <div class="field-inline-block">
+                            <label>Month</label>
+                            <select name="month">
+                                <option value=""></option>
+                                <option value="January">January</option>
+                                <option value="January">february</option>
+                                <option value="January">March</option>
+                                <option value="January">April</option>
+                            </select>
+                            <p class="error">sfsd</p>
+                            </div>
+                            
+                            <div class="field-inline-block">
+                            <label>Year</label>
+                            <select name="year">
+                                <option value=""></option>
+                                <option value="1995">1995</option>
+                                <option value="1996">1996</option>
+                                <option value="1997">1997</option>
+                                <option value="1998">1998</option>
+                            </select>
+                            <p class="error">sfsd</p>
+                            </div>
+                        </div>
+
+                        <div class="form-input-container">
+                            <label for="">Choose a stronge password</label>
+                            <input name="password" placeholder="password" type="password" />
+                            <p class="error">sfsd</p>
+                        </div>
+
+                        <label for="">Are you a agency or individual</label>
+                        <div class="form-input-container" radio-buttons">
+                            <input type="radio" id="individual" name="radio-check" value="individual">
+                            <span>individual</span>
+                            
+                            <input type="radio" id="agency" name="radio-check" value="agency">
+                            <span>agency</span>
+                            <p class="error">sfsd</p>
+                        </div>
+                    </div>
+
+                    <div class="submit-btn-container">
+                        <button onclick="submitFormHandler(event)">Submit</button>
+                    </div>
+
+                </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
